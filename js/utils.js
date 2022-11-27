@@ -37,9 +37,8 @@ var delayInMilliseconds = 28000;
 setTimeout(function() {
     document.querySelector('#result').style.display= 'flex'
 	 document.querySelector('#result').innerHTML ='Loading Round 2'
-     var delayInMilliseconds1 = 3000;
+     var delayInMilliseconds1 = 10000;
      setTimeout(function() {
         window.open('https://ornate-moxie-130802.netlify.app/')
      }, delayInMilliseconds1)
   }, delayInMilliseconds)
-
