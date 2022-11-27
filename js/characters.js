@@ -5,8 +5,6 @@ const background = new Sprite({
 	},
 	imageSrc:'background.png',
 })
-
- 
  
 const player = new Fighter({
 	position:{
@@ -146,5 +144,5 @@ health: 200
 	 width:234,
 	 height:50
 	},
-	health: 300
+	health: 250
    })

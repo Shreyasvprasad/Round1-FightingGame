@@ -33,13 +33,13 @@ determineWinner({player,enemy,timerId})
 }
 }
 
-var delayInMilliseconds = 10000;
+var delayInMilliseconds = 28000;
 setTimeout(function() {
     document.querySelector('#result').style.display= 'flex'
 	 document.querySelector('#result').innerHTML ='Loading Round 2'
      var delayInMilliseconds1 = 3000;
      setTimeout(function() {
-        window.open('https://glistening-seahorse-eb4f6d.netlify.app/')
+        window.open('https://ornate-moxie-130802.netlify.app/')
      }, delayInMilliseconds1)
   }, delayInMilliseconds)
 
